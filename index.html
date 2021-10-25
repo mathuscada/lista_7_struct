@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel='stylesheet' type="text/css" href="./styles.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <nav>
+            <div class='nav-left'>
+                <img src="/Images/logo.jpeg">
+                <div class="nav-logo">
+                    <a id="logo" href="">Caldeirão da Wanda</a>
+                </div>
+            </div>
+            <div class='nav-center nav-list'>
+                <a href="">Catálogo</a>
+                <a href="">Destaques</a>
+                <a href="">Ofertas</a>
+            </div>
+            <div class='nav-right nav-list'>
+                <a href="">Login</a>
+                <a href="">Signup</a>
+            </div>
+            <div class="nav-small">
+                <a>Menu</a>
+            </div>
+        </nav>
+        <div id="main">
+            <section class='product' id="fundo1">
+                <div class="content" id="bg1">
+                    <div class="content-left">
+                        <img src="Images/chapeu_preto.png" class="product-image" id="main_hat">
+                        <h1>Chapéu de Ritual</h1>
+                        <h2 class="white">Conquiste seu coven com os estilos mais modernos!</h2>
+                    </div>
+                    <div class="content-right">
+                        <p>Selecione outros modelos:</p>
+                        <div class="hats">
+                            <img src="Images/chapeu_preto.png" id="black_hat" onclick="changeHatImage(this.id);">
+                            <img src="Images/chapeu_roxo.png" id="purple_hat" onclick="changeHatImage(this.id);">
+                            <img src="Images/chapeu_verde.png" id="green_hat" onclick="changeHatImage(this.id);">
+                            <img src="Images/chapeu_azul.png" id="blue_hat" onclick="changeHatImage(this.id);">
+                        </div>
+                        <div class="price">
+                            <p>De: <del>R$59,99</del> Por: R$44,99</p>
+                            <button class="button-buy">Compre agora</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section product id="fundo2">
+                <div class="content" id="bg2">
+                    <div class="content-left">
+                        <img src="Images/var1.png" class="product-image" id="main_wand">
+                        <h1>Varinha Mágica</h1>
+                        <h2 class="white">Garante ser resistente até para os feitiços mais fortes!</h2>
+                    </div>
+                    <div class="content-right">
+                        <p>Selecione outros modelos:</p>
+                        <div class="hats">
+                            <img src="Images/var1.png" id="wand1" onclick="changeWandImage(this.id);">
+                            <img src="Images/var2.png" id="wand2" onclick="changeWandImage(this.id);">
+                            <img src="Images/var3.png" id="wand3" onclick="changeWandImage(this.id);">
+                            <img src="Images/var4.png" id="wand4" onclick="changeWandImage(this.id);">
+                        </div>
+                        <div class="price">
+                            <p>De: <del>R$59,99</del> Por: R$44,99</p>
+                            <button class="button-buy">Compre agora</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <img src="Images/logo_footer.jpeg">
+                <p>Contato: (61) 99452-5342</p>
+                <p>Email de contato: caldeirao.wanda@coven.com</p>
+                <p>Nos siga nas redes sociais:</p>
+                <div>
+                    <p><img src="Images/instagram.png" class="icon">@wanda.bruxinha</p>
+                    <p><img src="Images/facebook.png" class="icon">Caldeirão da Wanda</p>
+                </div>
+            </footer>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
